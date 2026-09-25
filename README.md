@@ -66,6 +66,18 @@ The included `render.yaml` defines the app as a static site:
 
 No environment variables are required for this prototype.
 
+## Deploy On Vercel
+
+This repository includes `vercel.json` for the Vite build and React Router deep links.
+
+1. Open Vercel and choose **Add New → Project**.
+2. Import `dk124421/KabadiX-Platform` from GitHub.
+3. Keep the root directory blank.
+4. Use the detected Vite framework, or set the build command to `npm run build` and the output directory to `dist`.
+5. Click **Deploy**.
+
+No environment variables are required for this prototype. Every screen currently uses local React state and sample data.
+
 ## Project Structure
 
 ```text
